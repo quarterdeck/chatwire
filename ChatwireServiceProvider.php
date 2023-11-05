@@ -3,7 +3,7 @@
 namespace Quarterdeck;
 
 use Illuminate\Support\ServiceProvider;
-use App\Livewire;
+use Livewire\Livewire;
 
 class ChatwireServiceProvider extends ServiceProvider
 {
