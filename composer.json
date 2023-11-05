@@ -1,0 +1,21 @@
+{
+    "name": "quarterdeck/chatwire",
+    "description": "A live chat widget built on the TALL stack",
+    "license": "Unlicense",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quarterdeck\\ChatwireServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Quarterdeck\\": "/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "livewire/livewire": "^3.0"
+    }
+}
